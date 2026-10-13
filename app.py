@@ -6,7 +6,7 @@ st.set_page_config(page_title="FAANG Stock Predictor", layout="wide")
 st.title("FAANG Stock Price Prediction App")
 
 
-model_path = "runs:/e2d789625117454cb15eae33d90138a0/ui_ready_rf_model"
+model_path = "mlruns/1/models/m-1b8f9666a51f4999bbe01ae38d8877ad/artifacts"
 
 try:
     model = mlflow.sklearn.load_model(model_path)
