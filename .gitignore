@@ -1,0 +1,7 @@
+new-env/
+Project Details/
+__pycache__/
+.ipynb_checkpoints/
+*.csv
+mlruns/
+*.pkl
